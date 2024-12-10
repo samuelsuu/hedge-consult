@@ -31,7 +31,7 @@ const Listings = () => {
   });
 
   return (
-    <div className="bg-white min-h-screen">
+    <div className="bg-white min-h-screen py-24">
       <Filters onFilterChange={handleFilterChange} />
       <div className="container mx-auto py-10">
         {filteredProperties.length > 0 ? (

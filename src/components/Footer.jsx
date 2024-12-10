@@ -94,8 +94,8 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-2 text-gold">Contact Us</h3>
             <p className="text-gray-400">123 Real Estate Avenue</p>
-            <p className="text-gray-400">info@hedgeconsult.com</p>
-            <p className="text-gray-400">+1 (123) 456-7890</p>
+            <p className="text-gray-400">Hedgewayconsult@gmail.com</p>
+            <p className="text-gray-400">07059854967</p>
           </div>
         </div>
 

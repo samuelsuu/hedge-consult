@@ -1,6 +1,6 @@
 const ContactForm = () => {
   return (
-    <section className="bg-gray-50 py-10">
+    <section className="bg-gray-50 py-10 px-5">
       <div className="container mx-auto max-w-lg">
         <h2 className="text-3xl font-bold text-center text-black mb-6">
           Get in Touch

@@ -5,13 +5,15 @@ import 'swiper/css'; // Default Swiper styles
 import 'swiper/css/navigation'; // Styles for navigation buttons
 import 'swiper/css/pagination'; // Styles for pagination
 
+import img from '../assets/test.jpg'
+
 const testimonials = [
   {
     name: 'John Doe',
     role: 'Real Estate Investor',
     message:
       "Hedge Consult has made my property investment journey seamless and hassle-free. The listings are well-vetted, and the team is incredibly professional.",
-    image: '/assets/testimonial1.jpg', // Replace with the actual path to the image
+    image: {img}, // Replace with the actual path to the image
   },
   {
     name: 'Jane Smith',
