@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 // Import Swiper and the necessary CSS
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css'; // Default Swiper styles
 import 'swiper/css/navigation'; // Styles for navigation buttons
 import 'swiper/css/pagination'; // Styles for pagination
-
-import img from '../assets/test.jpg'
+import AOS from 'aos'; // Import AOS
+import 'aos/dist/aos.css'; // Import AOS styles
 
 const testimonials = [
   {
@@ -13,36 +13,50 @@ const testimonials = [
     role: 'Real Estate Investor',
     message:
       "Hedge Consult has made my property investment journey seamless and hassle-free. The listings are well-vetted, and the team is incredibly professional.",
-    image: {img}, // Replace with the actual path to the image
+    image: '/assets/testimonial1.jpg',
   },
   {
     name: 'Jane Smith',
     role: 'First-time Buyer',
     message:
       "I never thought buying my first property would be so easy. Thanks to Hedge Consult, I found exactly what I was looking for, and the process was smooth.",
-    image: '/assets/testimonial2.jpg', // Replace with the actual path to the image
+    image: '/assets/testimonial2.jpg',
   },
   {
     name: 'Samuel Johnson',
     role: 'Experienced Investor',
     message:
       "Hedge Consult's attention to detail and focus on due diligence made my investment experience stress-free. I highly recommend their services.",
-    image: '/assets/testimonial3.jpg', // Replace with the actual path to the image
+    image: '/assets/testimonial3.jpg',
   },
   {
     name: 'Alice Williams',
     role: 'Property Buyer',
     message:
       "The customer service at Hedge Consult is exceptional. They guided me through every step of the process, and I ended up with a great investment property.",
-    image: '/assets/testimonial4.jpg', // Replace with the actual path to the image
+    image: '/assets/testimonial4.jpg',
   },
 ];
 
 const TestimonialSlider = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      offset: 200,
+      easing: 'ease-in-out',
+      once: true,
+    });
+  }, []);
+
   return (
     <section className="bg-gray-50 py-12">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl font-bold text-black mb-8">What Our Clients Say</h2>
+        <h2
+          className="text-3xl font-bold text-black mb-8"
+          data-aos="fade-up"
+        >
+          What Our Clients Say
+        </h2>
         <Swiper
           spaceBetween={50}
           slidesPerView={1}
@@ -54,7 +68,10 @@ const TestimonialSlider = () => {
         >
           {testimonials.map((testimonial, index) => (
             <SwiperSlide key={index} className="text-center">
-              <div className="bg-white p-6 rounded-lg shadow-lg max-w-md mx-auto">
+              <div
+                className="bg-white p-6 rounded-lg shadow-lg max-w-md mx-auto"
+                data-aos="zoom-in" // Add animation for each slide
+              >
                 <img
                   src={testimonial.image}
                   alt={`${testimonial.name}'s image`}

@@ -1,12 +1,18 @@
-import React from "react";
-import img from "../assets/about.jpeg"
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import img from "../assets/about.jpeg";
 
 const About = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000, once: true });
+  }, []);
+
   return (
     <section className="bg-white py-24 px-6">
       <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* Text Section */}
-        <div>
+        <div data-aos="fade-right"> {/* AOS animation */}
           <h2 className="text-4xl font-bold text-black mb-6">
             About Hedge Consult
           </h2>
@@ -37,9 +43,9 @@ const About = () => {
         </div>
 
         {/* Image Section */}
-        <div className="flex justify-center">
+        <div className="flex justify-center" data-aos="fade-left"> {/* AOS animation */}
           <img
-            src= {img}
+            src={img}
             alt="Hedge Consult"
             className="rounded-lg shadow-lg w-full lg:w-4/5"
           />
