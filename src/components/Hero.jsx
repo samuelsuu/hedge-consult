@@ -8,11 +8,11 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="relative w-full h-screen">
+    <section className="relative w-full h-screen mt-10">
       {/* Background Video */}
       <video
         className="absolute top-0 left-0 w-full h-full object-cover"
-        src="https://www.shutterstock.com/shutterstock/videos/3593537755/preview/stock-footage-real-estate-agent-is-gesturing-with-a-pen-while-showing-a-contract-to-a-client-they-are-discussing.webm" // Replace with your video URL
+        src="https://videos.pexels.com/video-files/4258906/4258906-sd_640_360_25fps.mp4" // Replace with your video URL
         autoPlay
         loop
         muted

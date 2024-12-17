@@ -33,7 +33,7 @@ const Filters = ({ userLocation, onFilterChange }) => {
     <div className="bg-gray-100 py-4 px-6 border-b">
       <div className="container mx-auto flex flex-wrap gap-4">
         {/* Location Filter */}
-        <select
+        {/* <select
           onChange={handleLocationChange}
           value={location}
           className="border border-gray-300 rounded-md px-4 py-2"
@@ -43,7 +43,7 @@ const Filters = ({ userLocation, onFilterChange }) => {
           <option value="Miami">Miami</option>
           <option value="Denver">Denver</option>
           {userLocation && <option value={userLocation}>{userLocation}</option>}
-        </select>
+        </select> */}
 
         {/* Price Filter */}
         <select

@@ -6,6 +6,8 @@ import 'swiper/css/navigation'; // Styles for navigation buttons
 import 'swiper/css/pagination'; // Styles for pagination
 import AOS from 'aos'; // Import AOS
 import 'aos/dist/aos.css'; // Import AOS styles
+import img from "../assets/man.jpg"
+import img1 from "../assets/test.jpg"
 
 const testimonials = [
   {
@@ -13,28 +15,28 @@ const testimonials = [
     role: 'Real Estate Investor',
     message:
       "Hedge Consult has made my property investment journey seamless and hassle-free. The listings are well-vetted, and the team is incredibly professional.",
-    image: '/assets/testimonial1.jpg',
+    image: img,
   },
   {
     name: 'Jane Smith',
     role: 'First-time Buyer',
     message:
       "I never thought buying my first property would be so easy. Thanks to Hedge Consult, I found exactly what I was looking for, and the process was smooth.",
-    image: '/assets/testimonial2.jpg',
+    image: img1,
   },
   {
     name: 'Samuel Johnson',
     role: 'Experienced Investor',
     message:
       "Hedge Consult's attention to detail and focus on due diligence made my investment experience stress-free. I highly recommend their services.",
-    image: '/assets/testimonial3.jpg',
+    image: img,
   },
   {
     name: 'Alice Williams',
     role: 'Property Buyer',
     message:
       "The customer service at Hedge Consult is exceptional. They guided me through every step of the process, and I ended up with a great investment property.",
-    image: '/assets/testimonial4.jpg',
+    image: img1,
   },
 ];
 

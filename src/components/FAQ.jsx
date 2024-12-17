@@ -22,14 +22,24 @@ const FAQ = () => {
         "You can contact us through our contact form, email, or by reaching out directly via WhatsApp or phone. Our support team is always ready to assist you.",
     },
     {
-      question: "Do you charge a commission?",
+      question: "How do you charge for your services?",
       answer:
-        "We do not charge any upfront fees for browsing properties. However, a commission may be applicable when a sale is completed, which will be clearly outlined in the agreement.",
+        "Our fees vary depending on the specific services provided. We typically charge a commission based on the property's sale price. However, we can discuss customized fee arrangements to suit your individual needs.",
     },
     {
-      question: "Can I schedule a property inspection?",
+      question: "What can I expect during the home inspection process?",
       answer:
-        "Yes, we offer personalized support through our field agents, who can schedule property inspections and surveys to ensure the property meets your requirements.",
+        "A home inspection is a thorough examination of your property's condition. It helps identify any potential issues and can be a valuable tool for both buyers and sellers. ",
+    },
+    {
+      question: "How can I prepare my property for sale?",
+      answer:
+        "To maximize your property's value, consider staging your home, making necessary repairs, and hiring professional cleaners. Our agents can provide specific advice tailored to your property.",
+    },
+    {
+      question: "Do you provide mortgage assistance?",
+      answer:
+        "We can connect you with qualified mortgage brokers who can help you secure financing for your property purchase.",
     },
   ];
 
