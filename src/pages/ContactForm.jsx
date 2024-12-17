@@ -78,8 +78,7 @@ const ContactForm = () => {
           <button
             type="submit"
             className="bg-gold text-black px-6 py-3 w-full rounded-md font-bold hover:bg-black hover:text-white transition-all"
-            data-aos="zoom-in"
-            data-aos-delay="800" // Button animation
+            
           >
             Send Message
           </button>
