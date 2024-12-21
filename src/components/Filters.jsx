@@ -53,7 +53,8 @@ const Filters = ({ userLocation, onFilterChange }) => {
         >
           <option value="">All Prices</option>
           <option value="500000">Up to N500,000</option>
-          <option value="1000000">Above N500,000</option>
+          <option value="1000000">Up to N1,000,000</option>
+          {/* <option value="2000000">Above N2,000,000</option> */}
         </select>
 
         {/* Type Filter */}

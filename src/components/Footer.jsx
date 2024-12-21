@@ -11,16 +11,16 @@ const Footer = () => {
             Hedge Consult
           </h2>
           <div className="flex space-x-6">
-            <a href="#" className="text-white hover:text-gold">
+            <a href="https://web.facebook.com/hchedgeway" className="text-white hover:text-gold">
               <FaFacebook size={24} />
             </a>
-            <a href="#" className="text-white hover:text-gold">
+            <a href="https://x.com/hchedgeway" className="text-white hover:text-gold">
               <FaTwitter size={24} />
             </a>
-            <a href="#" className="text-white hover:text-gold">
+            <a href="https://www.instagram.com/hchedgeway" className="text-white hover:text-gold">
               <FaInstagram size={24} />
             </a>
-            <a href="#" className="text-white hover:text-gold">
+            <a href="" className="text-white hover:text-gold">
               <FaLinkedin size={24} />
             </a>
           </div>

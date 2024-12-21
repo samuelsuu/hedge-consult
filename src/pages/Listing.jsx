@@ -5,7 +5,7 @@ import Filters from "../components/Filters"; // Import Filters component
 import AOS from "aos"; // Import AOS
 import "aos/dist/aos.css"; // Import AOS styles
 
-const apiEndpoint = "https://hedgeconsult.cdn.prismic.io/api/v2"; // Prismic API endpoint
+const apiEndpoint = "https://hedgeconsulty.cdn.prismic.io/api/v2"; // Prismic API endpoint
 const client = Prismic.client(apiEndpoint);
 
 const formatDate = (dateString) => {
@@ -182,15 +182,16 @@ const Listings = () => {
           {filteredProperties.map((property) => (
             <div
               key={property.id}
-              className="bg-white shadow-md rounded-lg overflow-hidden transform transition-all duration-300 hover:scale-105"
+              className="bg-white cursor-pointer shadow-md rounded-lg overflow-hidden transform transition-all duration-300 hover:scale-105"
               data-aos="zoom-in"
+              onClick={() => handlePropertyClick(property)}
             >
               <div className="relative w-full h-64">
                 <img
                   src={property.data.image.url}
                   alt="Property"
                   className="absolute inset-0 w-full cursor-pointer h-full object-cover rounded-t-lg"
-                  onClick={() => handlePropertyClick(property)}
+                  
                 />
               </div>
               <div className="p-4">

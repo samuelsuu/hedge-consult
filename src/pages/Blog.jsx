@@ -4,7 +4,7 @@ import { RichText } from "prismic-reactjs";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const apiEndpoint = "https://hedgeconsult.cdn.prismic.io/api/v2";
+const apiEndpoint = "https://hedgeconsulty.cdn.prismic.io/api/v2";
 const client = Prismic.client(apiEndpoint);
 
 const formatDate = (dateString) => {
@@ -87,7 +87,7 @@ const Blog = () => {
           {posts.map((post) => (
             <div
               key={post.id}
-              className="bg-white shadow-md rounded-lg overflow-hidden transform transition-transform duration-300 hover:scale-105"
+              className="bg-white cursor-pointer shadow-md rounded-lg overflow-hidden transform transition-transform duration-300 hover:scale-105"
               onClick={() => handlePostClick(post)}
               data-aos="zoom-in"
             >
