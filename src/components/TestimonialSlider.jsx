@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 // Import Swiper and the necessary CSS
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css'; // Default Swiper styles
@@ -11,14 +11,14 @@ import img1 from "../assets/test.jpg"
 
 const testimonials = [
   {
-    name: 'John Doe',
+    name: 'Jb David',
     role: 'Real Estate Investor',
     message:
       "Hedge Consult has made my property investment journey seamless and hassle-free. The listings are well-vetted, and the team is incredibly professional.",
     image: img,
   },
   {
-    name: 'Jane Smith',
+    name: 'Jane Okechukwu',
     role: 'First-time Buyer',
     message:
       "I never thought buying my first property would be so easy. Thanks to Hedge Consult, I found exactly what I was looking for, and the process was smooth.",
