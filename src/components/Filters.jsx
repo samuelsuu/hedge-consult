@@ -52,9 +52,10 @@ const Filters = ({ userLocation, onFilterChange }) => {
           className="border border-gray-300 rounded-md px-4 py-2"
         >
           <option value="">All Prices</option>
-          <option value="500000">Up to N500,000</option>
           <option value="1000000">Up to N1,000,000</option>
-          {/* <option value="2000000">Above N2,000,000</option> */}
+          <option value="2000000">Up to N2,000,000</option>
+          <option value="3000000">Up to N3,000,000</option>
+          <option value="3000000">Above N3,000,000</option>
         </select>
 
         {/* Type Filter */}

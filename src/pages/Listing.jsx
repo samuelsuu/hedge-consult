@@ -79,9 +79,9 @@ const Listings = () => {
 
     const matchesPrice = filters.price
       ? propertyData.price &&
-        (filters.price === "500000"
-          ? propertyData.price <= 500000
-          : propertyData.price > 500000)
+        (filters.price === "1000000"
+          ? propertyData.price <= 1000000
+          : propertyData.price > 1000000)
       : true;
 
     return matchesLocation && matchesType && matchesPrice;

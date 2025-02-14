@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import img from "../assets/about.jpeg";
+import CEODetails from "../components/CEODetails";
 
 const About = () => {
   useEffect(() => {
@@ -55,6 +56,9 @@ const About = () => {
           />
         </div>
       </div>
+      <div className="flex items-center justify-center mt-12">
+          <CEODetails />
+        </div>
     </section>
   );
 };
