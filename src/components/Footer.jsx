@@ -83,12 +83,18 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-2 text-gold">Support</h3>
             <ul className="space-y-2">
               <li>
-                <a   href="https://wa.me/+2347059854967" className="text-gray-400 hover:text-white">
+                <a
+                  href="https://wa.me/+2347059854967"
+                  className="text-gray-400 hover:text-white"
+                >
                   Help Center
                 </a>
               </li>
               <li>
-                <a href="https://wa.me/+2347059854967" className="text-gray-400 hover:text-white">
+                <a
+                  href="https://wa.me/+2347059854967"
+                  className="text-gray-400 hover:text-white"
+                >
                   Feedback
                 </a>
               </li>
@@ -101,21 +107,37 @@ const Footer = () => {
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold mb-2 text-gold">Contact Us</h3>
+            <h3 className="text-sm font-semibold mb-2 text-gold">Contact Us</h3>
             <p className="text-gray-400">
               Suite 15, Lydia Abam Lane, Opposite Lasukaa lounge, beside Afor
               marketplace, Off Peter Odili Road Port Harcourt, Rivers State.
             </p>
-            <p className="text-gray-400">Hedgewayconsult@gmail.com</p>
-            <p className="text-gray-400">07059854967</p>
+            <p className="text-gray-400 text-sm">
+             
+              <a
+                href="mailto:Hedgewayconsult@gmail.com"
+               className="text-gray-400 hover:text-white"
+              >
+                Hedgewayconsult@gmail.com
+              </a>
+            </p>
+            <p className="text-gray-400 text-sm">
+             
+              <a
+                href="tel:07059854967"
+                className="text-gray-400 hover:text-white"
+              >
+                07059854967
+              </a>
+            </p>
           </div>
         </div>
 
         {/* Bottom Section */}
         <div className="mt-8 text-center text-gray-500 text-sm">
           <p>
-            &copy; {new Date().getFullYear()} Hedgeway Global Services Ltd. All rights
-            reserved.
+            &copy; {new Date().getFullYear()} Hedgeway Global Services Ltd. All
+            rights reserved.
           </p>
         </div>
       </div>

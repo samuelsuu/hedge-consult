@@ -8,6 +8,7 @@ import ContactUs from "./pages/ContactForm";
 import Footer from "./components/Footer";
 import FloatingWhatsApp from "./components/FloatingWhatsApp"; // Import the component
 import Blog from "./pages/Blog";
+import "./App.css";
 
 function App() {
   return (
