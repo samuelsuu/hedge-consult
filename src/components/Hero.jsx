@@ -30,8 +30,7 @@ const Hero = () => {
           Find Your Dream Property
         </h1>
         <p className="text-lg mb-8" data-aos="fade-up" data-aos-delay="200">
-          Secure reliable and valuable real estate investments with Hedge
-          Consult.
+          Secure reliable and valuable real estate investments with Hedgeway Global Services Ltd
         </p>
         <div className="flex space-x-4" data-aos="fade-up" data-aos-delay="400">
           <a

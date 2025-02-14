@@ -6,38 +6,38 @@ import 'swiper/css/navigation'; // Styles for navigation buttons
 import 'swiper/css/pagination'; // Styles for pagination
 import AOS from 'aos'; // Import AOS
 import 'aos/dist/aos.css'; // Import AOS styles
-import img from "../assets/man.jpg"
-import img1 from "../assets/test.jpg"
+import img from "../assets/test.jpeg"
+import img1 from "../assets/test1.jpeg"
 
 const testimonials = [
   {
-    name: 'Jb David',
+    name: 'Barijima Tomsong',
     role: 'Real Estate Investor',
     message:
-      "Hedge Consult has made my property investment journey seamless and hassle-free. The listings are well-vetted, and the team is incredibly professional.",
+      "Hedgeway Global Services Ltd has made my property investment journey seamless and hassle-free. The listings are well-vetted, and the team is incredibly professional.",
     image: img,
   },
   {
-    name: 'Jane Okechukwu',
+    name: 'Nnamdi Chigozie',
     role: 'First-time Buyer',
     message:
-      "I never thought buying my first property would be so easy. Thanks to Hedge Consult, I found exactly what I was looking for, and the process was smooth.",
+      "I never thought buying my first property would be so easy. Thanks to Hedgeway Global Services Ltd, I found exactly what I was looking for, and the process was smooth.",
     image: img1,
   },
-  {
-    name: 'Samuel Johnson',
-    role: 'Experienced Investor',
-    message:
-      "Hedge Consult's attention to detail and focus on due diligence made my investment experience stress-free. I highly recommend their services.",
-    image: img,
-  },
-  {
-    name: 'Alice Williams',
-    role: 'Property Buyer',
-    message:
-      "The customer service at Hedge Consult is exceptional. They guided me through every step of the process, and I ended up with a great investment property.",
-    image: img1,
-  },
+  // {
+  //   name: 'Samuel Johnson',
+  //   role: 'Experienced Investor',
+  //   message:
+  //     "Hedgeway Global Services Ltd's attention to detail and focus on due diligence made my investment experience stress-free. I highly recommend their services.",
+  //   image: img,
+  // },
+  // {
+  //   name: 'Alice Williams',
+  //   role: 'Property Buyer',
+  //   message:
+  //     "The customer service at Hedgeway Global Services Ltd is exceptional. They guided me through every step of the process, and I ended up with a great investment property.",
+  //   image: img1,
+  // },
 ];
 
 const TestimonialSlider = () => {

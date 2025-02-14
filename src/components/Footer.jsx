@@ -8,16 +8,25 @@ const Footer = () => {
         {/* Top Section */}
         <div className="flex flex-col md:flex-row justify-between items-center border-b border-gray-700 pb-6">
           <h2 className="text-xl font-bold text-gold mb-4 md:mb-0">
-            Hedge Consult
+            Hedgeway Global Services Ltd
           </h2>
           <div className="flex space-x-6">
-            <a href="https://web.facebook.com/hchedgeway" className="text-white hover:text-gold">
+            <a
+              href="https://web.facebook.com/hchedgeway"
+              className="text-white hover:text-gold"
+            >
               <FaFacebook size={24} />
             </a>
-            <a href="https://x.com/hchedgeway" className="text-white hover:text-gold">
+            <a
+              href="https://x.com/hchedgeway"
+              className="text-white hover:text-gold"
+            >
               <FaTwitter size={24} />
             </a>
-            <a href="https://www.instagram.com/hchedgeway" className="text-white hover:text-gold">
+            <a
+              href="https://www.instagram.com/hchedgeway"
+              className="text-white hover:text-gold"
+            >
               <FaInstagram size={24} />
             </a>
             <a href="" className="text-white hover:text-gold">
@@ -58,7 +67,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#blog" className="text-gray-400 hover:text-white">
+                <a href="/blog" className="text-gray-400 hover:text-white">
                   Blog
                 </a>
               </li>
@@ -74,12 +83,12 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-2 text-gold">Support</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#help" className="text-gray-400 hover:text-white">
+                <a   href="https://wa.me/+2347059854967" className="text-gray-400 hover:text-white">
                   Help Center
                 </a>
               </li>
               <li>
-                <a href="#feedback" className="text-gray-400 hover:text-white">
+                <a href="https://wa.me/+2347059854967" className="text-gray-400 hover:text-white">
                   Feedback
                 </a>
               </li>
@@ -93,7 +102,10 @@ const Footer = () => {
 
           <div>
             <h3 className="text-lg font-semibold mb-2 text-gold">Contact Us</h3>
-            <p className="text-gray-400">123 Real Estate Avenue</p>
+            <p className="text-gray-400">
+              Suite 15, Lydia Abam Lane, Opposite Lasukaa lounge, beside Afor
+              marketplace, Off Peter Odili Road Port Harcourt, Rivers State.
+            </p>
             <p className="text-gray-400">Hedgewayconsult@gmail.com</p>
             <p className="text-gray-400">07059854967</p>
           </div>
@@ -102,7 +114,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="mt-8 text-center text-gray-500 text-sm">
           <p>
-            &copy; {new Date().getFullYear()} Hedge Consult. All rights
+            &copy; {new Date().getFullYear()} Hedgeway Global Services Ltd. All rights
             reserved.
           </p>
         </div>

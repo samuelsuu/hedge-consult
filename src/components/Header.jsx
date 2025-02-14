@@ -14,7 +14,7 @@ const Header = () => {
         <div className="flex items-center space-x-4">
           <img
             src={img}
-            alt="Hedge Consult Logo"
+            alt="Hedgeway Global Services Ltd Logo"
             className="w-20 h-15"
           />
         </div>
