@@ -56,9 +56,9 @@ const About = () => {
           />
         </div>
       </div>
-      <div className="flex items-center justify-center mt-12">
+      {/* <div className="flex items-center justify-center mt-12">
           <CEODetails />
-        </div>
+        </div> */}
     </section>
   );
 };
